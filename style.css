@@ -13,6 +13,18 @@ header {
     text-align: center;
 }
 
+header h1 {
+    font-size: 2.5em; /* Aumentando o tamanho do título */
+    margin: 0;
+}
+
+header h2 {
+    font-size: 1.5em; /* Subtítulo */
+    font-weight: normal;
+    margin: 5px 0 10px;
+    color: #ddd;
+}
+
 nav {
     text-align: center;
     background-color: #444;
@@ -31,9 +43,10 @@ nav a:hover {
 
 .container {
     padding: 20px;
+    line-height: 1.6;
 }
 
-h1, h2 {
+h2 {
     color: #333;
 }
 
